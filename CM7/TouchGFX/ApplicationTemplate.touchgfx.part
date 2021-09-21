@@ -1,0 +1,22 @@
+
+{
+  "Application": {
+    "Name": "touchgfx-h747",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "AvailableColorDepths": [ 16 ],
+    "AvailableLCDs":
+    {
+      "16": "LCD16bpp"
+    },
+    "AvailableResolutions" : [
+      {
+        "Width": 320,
+        "Height": 240
+      }
+    ],
+    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../../touchgfx-h747.ioc --platform=m7",
+    "Family" : "STM32H7",
+    "SubFamily" : "STM32H747/757"
+  },
+  "Version": "4.17.0"
+}

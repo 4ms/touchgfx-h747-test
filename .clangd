@@ -1,0 +1,10 @@
+CompileFlags:
+	Add: [
+		"--target=arm-none-eabi", 
+		"-IDrivers/STM32H7xx_HAL_Driver/Inc",
+		"-IDrivers/CMSIS/Device/ST/STM32H7xx/Include",
+	]
+	Remove: [
+		"-femit*"
+	]
+

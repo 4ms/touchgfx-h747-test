@@ -1,0 +1,8 @@
+This was created with CubeMX, as a "board project" for the STM32H747 Disco board, then the TouchGFX add-on was installed and configured.
+
+Then the code was exported from CubeMX as an STM32CubeIDE project. 
+This generated a touchgfx.part file in CM7/TouchGFX. I opened this in TouchGFX Designer 4.17 on windows. Then I added a text object "SomeText" and clicked "Generate code"
+This created some files that the IDE needed to build the project.
+IDE was opened and the project was compiled (had to also add the path to the lbtouchgfx.a library for the linker).
+Then I created compile_commands.json using compiledb -v < /Users/design/4ms/stm32/eclipse/.metadata/.plugins/org.eclipse.cdt.ui/touchgfx-h747_CM7.build.log
+
